@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* Variáveis de cores */
+:root {
+    --primary-color: #0077B6;  /* Azul (Destaque principal) */
+    --secondary-color: #343A40; /* Cinza escuro (Texto principal) */
+    --tertiary-color: #6C757D; /* Cinza médio (Bordas, texto secundário) */
+    --bg-color: #F8F9FA; /* Fundo claro */
+    --tag-bg-color: #E9ECEF; /* Fundo cinza claro para tags */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--bg-color);
+    color: var(--secondary-color);
+    font-family: "Quicksand", sans-serif;
+    padding-bottom: 4rem; /* Garante espaço para o footer fixo */
+}
+
+/* --- ESTILOS DO CABEÇALHO E BUSCA --- */
+
+header {
+    padding: 2rem 1rem;
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+    position: sticky; 
+    top: 0; 
+    background: var(--bg-color);
+    z-index: 10;
+    border-bottom: 1px solid var(--tertiary-color);
+    gap: 2rem; 
+}
+
+header h1 {
+    font-size: 1.5rem; 
+    margin: 0; 
+    font-weight: 500; 
+    white-space: nowrap; 
+}
+
+/* Seletor para a nova barra de busca */
+.search-bar-container input#caixaBusca {
+    padding: 0.75rem 1rem;
+    border-radius: 2rem; 
+    border: 1px solid var(--tertiary-color);
+    background: var(--bg-color);
+    font-family: inherit;
+    font-size: 1.1rem; 
+    transition: all 0.2s ease;
+    width: 30rem;
+    color: var(--secondary-color);
+    margin-right: 0; 
+}
+
+.search-bar-container input#caixaBusca::placeholder {
+    font-size: 1rem; 
+    font-weight: 300; 
+    color: var(--tertiary-color); 
+}
+
+.search-bar-container input#caixaBusca:focus {
+    outline: none; 
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.1rem var(--primary-color);
+}
+
+/* --- ESTILOS DOS FILTROS (CHECKBOXES) --- */
+
+.filtro-area {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid var(--tertiary-color);
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.filtro-area h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.filtro-grupo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.filtro-grupo h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+    margin-right: 0.5rem;
+    color: var(--secondary-color);
+}
+
+/* Esconde o checkbox original */
+.filtro-grupo input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Estilo padrão do RÓTULO (que age como o botão) */
+.filtro-grupo label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 0.9rem;
+    background: var(--bg-color);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid var(--tertiary-color);
+    transition: all 0.2s ease;
+}
+
+/* Estilo para quando o checkbox estiver MARCADO */
+.filtro-grupo input[type="checkbox"]:checked + label {
+    background-color: var(--primary-color);
+    color: var(--bg-color); /* Texto branco */
+    border-color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* Estilo para o label quando o checkbox for focado */
+.filtro-grupo input[type="checkbox"]:focus + label {
+    box-shadow: 0 0 0 0.15rem var(--primary-color);
+}
+
+/* --- ESTILOS DO CONTEÚDO PRINCIPAL (MAIN E CARDS) --- */
+
+main {
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow-y: hidden; 
+}
+
+article {
+    background: none; 
+    border-radius: 0; 
+    padding: 0 1rem; 
+    margin-bottom: 1.25rem; 
+    box-shadow: none; 
+    transition: background-color 0.3s ease, border-bottom-color 0.3s ease; 
+    border-bottom: 1px solid var(--tertiary-color);
+    padding-bottom: 1.5rem; 
+}
+
+article:hover {
+    transform: none; 
+    background-color: rgba(var(--primary-color), 0.05);
+    cursor: pointer; 
+}
+
+article h2 {
+    margin-top: 0; 
+    font-weight: 600; 
+    font-size: 1.6rem; 
+    border-bottom: none; 
+    padding-bottom: 0; 
+    margin-bottom: 0.25rem; 
+    color: var(--primary-color); 
+}
+
+/* Estilo para o novo campo ano_historico */
+article p.data strong {
+    color: var(--primary-color); /* Destaca o ano histórico */
+    font-weight: 600;
+}
+
+article p {
+    margin: 0.5rem 0; 
+    line-height: 1.6; 
+    font-size: 1rem; 
+    margin-bottom: 0.5rem; 
+    color: var(--secondary-color); 
+}
+
+article p strong {
+    color: var(--secondary-color); 
+    font-weight: 500; 
+}
+
+article a {
+    color: var(--primary-color); 
+    text-decoration: none; 
+    font-weight: 500; 
+}
+
+article a:hover {
+    text-decoration: underline; 
+}
+
+/* Novo Estilo para as Tags Interativas */
+.tag-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag-item {
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    background-color: var(--tag-bg-color);
+    color: var(--secondary-color);
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    font-weight: 500;
+}
+
+.tag-item:hover {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+
+/* --- ESTILOS DO RODAPÉ (FOOTER) --- */
+
+.footer {
+    position: fixed; /* Fixa na parte inferior */
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    color: var(--tertiary-color); 
+    background-color: var(--bg-color); 
+    padding: 15px 20px; 
+    border-top: 1px solid var(--tertiary-color); 
+    font-size: 0.8rem; 
+    z-index: 10;
+}
+
+.footer-location {
+    color: #9aa0a6; 
+    margin-bottom: 10px; 
+}
+
+.footer-links {
+    list-style: none; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 15px; 
+}
+
+.footer-links a {
+    color: var(--secondary-color); 
+    text-decoration: none; 
+    transition: color 0.2s; 
+}
+
+.footer-links a:hover {
+    color: var(--primary-color); 
+}
+
+/* --- RESPONSIVIDADE (MEDIA QUERIES) --- */
+
+@media (max-width: 768px) {
+    header { 
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    header h1 {
+        text-align: center; 
+        margin-bottom: 0.5rem; 
+        font-size: 1.3rem;
+    }
+
+    .search-bar-container input#caixaBusca { 
+        width: 100%; 
+        max-width: 90vw; 
+        font-size: 1rem; 
+    }
+
+    .filtro-area {
+        padding: 1rem;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .filtro-grupo {
+        flex-direction: column; /* Coloca os grupos de filtros em coluna */
+        align-items: flex-start; 
+        gap: 0.5rem;
+    }
+
+    .filtro-grupo h3 {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .filtro-grupo label {
+        padding: 0.3rem 0.8rem;
+        font-size: 0.9rem;
+    }
+    
+    main { 
+        padding: 0 0.5rem; 
+    }
+
+    article:hover {
+        transform: none; 
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 { 
+        font-size: 1.1rem; 
+    }
+
+    .filtro-area h2 {
+        font-size: 1.3rem;
+    }
+
+    .footer { 
+        padding: 10px 15px;
+        font-size: 0.7rem;
+    }
+}

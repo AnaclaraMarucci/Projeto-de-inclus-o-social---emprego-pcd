@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" href="asset/Favicon(empregos pcd).png" type="image/png">
+    <title>Empregos para pessoas PCD</title>
+</head>
+<body>
+    
+    <header> 
+        <h1>Empregos para pessoas PCD</h1> 
+        
+        <div class="search-bar-container">
+            <input type="text" id="caixaBusca" placeholder="Buscar por vaga, empresa, tags ou tecnologia..."> 
+        </div>
+    </header> 
+    
+    <main> 
+        
+        <section class="filtro-area">
+            <h2>Filtros Avançados</h2>
+
+            <div class="filtro-grupo" id="grupoDeficiencia">
+                <h3>Tipo de Deficiência:</h3>
+                
+                <input type="checkbox" id="filtroFisica" name="tipoDeficiencia" value="fisica">
+                <label for="filtroFisica">Física</label>
+                
+                <input type="checkbox" id="filtroAuditiva" name="tipoDeficiencia" value="auditiva">
+                <label for="filtroAuditiva">Auditiva</label>
+                
+                <input type="checkbox" id="filtroVisual" name="tipoDeficiencia" value="visual">
+                <label for="filtroVisual">Visual</label>
+                
+                <input type="checkbox" id="filtroIntelectual" name="tipoDeficiencia" value="intelectual">
+                <label for="filtroIntelectual">Intelectual</label>
+                
+                <input type="checkbox" id="filtroMental" name="tipoDeficiencia" value="mental">
+                <label for="filtroMental">Mental/Psicossocial</label>
+                
+                <input type="checkbox" id="filtroMultipla" name="tipoDeficiencia" value="multipla">
+                <label for="filtroMultipla">Múltipla</label>
+                
+                <input type="checkbox" id="filtroTodos" name="tipoDeficiencia" value="todos">
+                <label for="filtroTodos">Todos</label>
+            </div>
+
+            <div class="filtro-grupo" id="grupoModalidade">
+                <h3>Modalidade de Trabalho:</h3>
+                
+                <input type="checkbox" id="modalidadeRemoto" name="modalidade" value="Remoto">
+                <label for="modalidadeRemoto">Remoto</label>
+                
+                <input type="checkbox" id="modalidadeHibrido" name="modalidade" value="Híbrido">
+                <label for="modalidadeHibrido">Híbrido</label>
+                
+                <input type="checkbox" id="modalidadePresencial" name="modalidade" value="Presencial">
+                <label for="modalidadePresencial">Presencial</label>
+            </div>
+            
+            </section>
+
+        <p id="contadorVagas" class="mensagem-vazia" style="padding: 0 1rem; font-weight: 600;">Carregando vagas...</p>
+        
+        <section class="card-container" id="cardContainer">    
+        </section>
+    </main> 
+
+    <footer class="footer">
+        <div class="footer-location">Paulinia, Brasil</div> 
+        <ul class="footer-links"> 
+            <li> 
+                <a href="https://www.gov.br/mdh/pt-br/assuntos/pessoa-com-deficiencia" target="_blank">Secretaria Nacional dos Direitos da Pessoa com Deficiência (Governo Federal)</a>
+            </li> 
+            <li> 
+                <a href="https://www.mpt.mp.br/pgt/destaques/cartilha-promocao-igualdade-de-oportunidades-e-tratamento-a-pcd" target="_blank">Cartilha sobre Igualdade e Oportunidades (MPT)</a>
+            </li>
+        </ul>
+    </footer>   
+    <script src="Script.js"></script>
+</body>
+</html>

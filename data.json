@@ -1,0 +1,412 @@
+[
+  {
+    "nome": "Desenvolvedor Front-end",
+    "empresa": "NovaWeb Tecnologia",
+    "modalidade": "Remoto",
+    "descricao": "Oportunidade 100% home office. Foco em React (lançado pelo Facebook em 2013) e acessibilidade web.",
+    "ano_historico": "2013",
+    "link": "https://exemplo.com/vaga-dev",
+    "tipo_deficiencia": "fisica",
+    "tags": ["Tecnologia", "React", "Mobilidade Reduzida"]
+  },
+  {
+    "nome": "Designer Gráfico Pleno",
+    "empresa": "Studio Criativo",
+    "modalidade": "Remoto",
+    "descricao": "Foco em comunicação visual digital. O termo 'Design Gráfico' foi cunhado por William Addison Dwiggins em 1922.",
+    "ano_historico": "1922",
+    "link": "https://exemplo.com/vaga-design",
+    "tipo_deficiencia": "auditiva",
+    "tags": ["Design", "Comunicação Visual", "Libras"]
+  },
+  {
+    "nome": "Analista de Atendimento (SAC)",
+    "empresa": "Connect Services",
+    "modalidade": "Presencial",
+    "descricao": "Atendimento receptivo. Os primeiros Call Centers modernos surgiram na década de 60 com os PABX automáticos.",
+    "ano_historico": "1960",
+    "link": "https://exemplo.com/vaga-sac",
+    "tipo_deficiencia": "visual",
+    "tags": ["Atendimento", "Leitor de Tela", "Comunicação Verbal"]
+  },
+  {
+    "nome": "Auxiliar de Estoque",
+    "empresa": "Logística Express",
+    "modalidade": "Presencial",
+    "descricao": "Trabalho com rotinas baseadas na Administração Científica (Taylorismo), focando em organização e eficiência.",
+    "ano_historico": "1911",
+    "link": "https://exemplo.com/vaga-estoque",
+    "tipo_deficiencia": "intelectual",
+    "tags": ["Logística", "Rotina", "Presencial"]
+  },
+  {
+    "nome": "Arquivista Digital",
+    "empresa": "DocuManage",
+    "modalidade": "Híbrido",
+    "descricao": "Organização documental. Profissão impulsionada pela criação do formato PDF pela Adobe para documentos digitais.",
+    "ano_historico": "1993",
+    "link": "https://exemplo.com/vaga-arquivo",
+    "tipo_deficiencia": "mental",
+    "tags": ["Administrativo", "PDF", "Ambiente Calmo"]
+  },
+  {
+    "nome": "Assistente Administrativo",
+    "empresa": "Corp Solutions",
+    "modalidade": "Presencial",
+    "descricao": "Apoio à gestão. A profissão se consolidou no Brasil com a criação das leis trabalhistas (CLT).",
+    "ano_historico": "1943",
+    "link": "https://exemplo.com/vaga-adm",
+    "tipo_deficiencia": "multipla",
+    "tags": ["Administrativo", "CLT", "Híbrido"]
+  },
+  {
+    "nome": "Analista de Dados Jr",
+    "empresa": "Data Insights",
+    "modalidade": "Híbrido",
+    "descricao": "Foco em visualização de dados. O termo 'Big Data' e a análise moderna de dados ganharam força no início dos anos 2000.",
+    "ano_historico": "2005",
+    "link": "https://exemplo.com/vaga-dados",
+    "tipo_deficiencia": "auditiva",
+    "tags": ["Tecnologia", "Big Data", "Visual"]
+  },
+  {
+    "nome": "Redator de Conteúdo Web",
+    "empresa": "Agência Palavra",
+    "modalidade": "Remoto",
+    "descricao": "Escrita para internet. Profissão que nasceu junto com a publicação do primeiro website do mundo por Tim Berners-Lee.",
+    "ano_historico": "1991",
+    "link": "https://exemplo.com/vaga-redator",
+    "tipo_deficiencia": "fisica",
+    "tags": ["Marketing", "Web", "Ergonomia"]
+  },
+  {
+    "nome": "Massoterapeuta Laboral",
+    "empresa": "Bem-Estar Corp",
+    "modalidade": "Presencial",
+    "descricao": "Atuação terapêutica. A Massagem Sueca moderna foi sistematizada por Pehr Henrik Ling no século XIX.",
+    "ano_historico": "1813",
+    "link": "https://exemplo.com/vaga-masso",
+    "tipo_deficiencia": "visual",
+    "tags": ["Saúde", "Bem-estar", "Sensorial"]
+  },
+  {
+    "nome": "Auxiliar de Jardinagem",
+    "empresa": "Green Care",
+    "modalidade": "Presencial",
+    "descricao": "Cuidado com áreas verdes. A jardinagem moderna mudou com a invenção do cortador de grama mecânico por Edwin Budding.",
+    "ano_historico": "1827",
+    "link": "https://exemplo.com/vaga-jardim",
+    "tipo_deficiencia": "intelectual",
+    "tags": ["Serviços Gerais", "Ar Livre", "Prático"]
+  },
+  {
+    "nome": "Programador Backend Java",
+    "empresa": "SoftSystems",
+    "modalidade": "Remoto",
+    "descricao": "Desenvolvimento com Java, linguagem lançada oficialmente pela Sun Microsystems em maio de 1995.",
+    "ano_historico": "1995",
+    "link": "https://exemplo.com/vaga-java",
+    "tipo_deficiencia": "visual",
+    "tags": ["Tecnologia", "Java", "Backend"]
+  },
+  {
+    "nome": "Tester de Software (QA)",
+    "empresa": "Quality First",
+    "modalidade": "Remoto",
+    "descricao": "O teste de software se tornou uma disciplina formal com a publicação do livro clássico de Glenford Myers.",
+    "ano_historico": "1979",
+    "link": "https://exemplo.com/vaga-qa",
+    "tipo_deficiencia": "auditiva",
+    "tags": ["Tecnologia", "QA", "Escrita"]
+  },
+  {
+    "nome": "Sonoplasta / Editor de Áudio",
+    "empresa": "Escola Harmonia",
+    "modalidade": "Presencial",
+    "descricao": "Edição de som. A gravação e manipulação de áudio nasceu com a invenção do Fonógrafo por Thomas Edison.",
+    "ano_historico": "1877",
+    "link": "https://exemplo.com/vaga-musica",
+    "tipo_deficiencia": "visual",
+    "tags": ["Artes", "Áudio", "Auditivo"]
+  },
+  {
+    "nome": "Auxiliar de Confeitaria",
+    "empresa": "Doces Momentos",
+    "modalidade": "Presencial",
+    "descricao": "A confeitaria moderna e artística foi revolucionada pelo chef francês Marie-Antoine Carême no início do séc XIX.",
+    "ano_historico": "1820",
+    "link": "https://exemplo.com/vaga-confeitaria",
+    "tipo_deficiencia": "intelectual",
+    "tags": ["Alimentação", "História", "Rotina"]
+  },
+  {
+    "nome": "Editor de Vídeo",
+    "empresa": "Media Productions",
+    "modalidade": "Híbrido",
+    "descricao": "A edição não-linear moderna se popularizou com o lançamento do Adobe Premiere.",
+    "ano_historico": "1991",
+    "link": "https://exemplo.com/vaga-video",
+    "tipo_deficiencia": "fisica",
+    "tags": ["Criatividade", "Premiere", "Tecnologia"]
+  },
+  {
+    "nome": "Bibliotecário Catalogador",
+    "empresa": "Biblioteca Municipal",
+    "modalidade": "Presencial",
+    "descricao": "Organização baseada no Sistema de Classificação Decimal criado por Melvil Dewey.",
+    "ano_historico": "1876",
+    "link": "https://exemplo.com/vaga-biblioteca",
+    "tipo_deficiencia": "mental",
+    "tags": ["Cultura", "Dewey", "Organização"]
+  },
+  {
+    "nome": "Assistente de Inclusão (Lei de Cotas)",
+    "empresa": "Global HR",
+    "modalidade": "Híbrido",
+    "descricao": "Trabalho focado na Lei de Cotas para PCDs no Brasil (Lei 8.213), que impulsionou a inclusão no mercado.",
+    "ano_historico": "1991",
+    "link": "https://exemplo.com/vaga-rh",
+    "tipo_deficiencia": "multipla",
+    "tags": ["RH", "Lei 8213", "Acessibilidade"]
+  },
+  {
+    "nome": "Operador Industrial",
+    "empresa": "Indústria Metal",
+    "modalidade": "Presencial",
+    "descricao": "Operação de máquinas, função que surgiu com o início da Primeira Revolução Industrial.",
+    "ano_historico": "1760",
+    "link": "https://exemplo.com/vaga-industria",
+    "tipo_deficiencia": "auditiva",
+    "tags": ["Indústria", "Máquinas", "Visual"]
+  },
+  {
+    "nome": "Tradutor Técnico",
+    "empresa": "Global Lingua",
+    "modalidade": "Remoto",
+    "descricao": "A tradução profissional moderna se organizou após a 2ª Guerra, com a fundação da FIT (Federação Int. de Tradutores).",
+    "ano_historico": "1953",
+    "link": "https://exemplo.com/vaga-tradutor",
+    "tipo_deficiencia": "visual",
+    "tags": ["Idiomas", "Home Office", "Leitura"]
+  },
+  {
+    "nome": "Analista de BI (Power BI)",
+    "empresa": "DataSafe Solutions",
+    "modalidade": "Remoto",
+    "descricao": "Análise de negócios utilizando Power BI, ferramenta lançada pela Microsoft inicialmente como add-on do Excel.",
+    "ano_historico": "2013",
+    "link": "https://exemplo.com/vaga-bi",
+    "tipo_deficiencia": "fisica",
+    "tags": ["Dados", "Microsoft", "Home Office"]
+  },
+  {
+    "nome": "Analista de Cibersegurança",
+    "empresa": "Cyber Defense",
+    "modalidade": "Remoto",
+    "descricao": "A segurança digital começou a ser discutida quando o primeiro vírus (Creeper) e o primeiro antivírus (Reaper) surgiram.",
+    "ano_historico": "1971",
+    "link": "https://exemplo.com/vaga-security",
+    "tipo_deficiencia": "visual",
+    "tags": ["Segurança", "Hacker", "Terminal"]
+  },
+  {
+    "nome": "Assistente de Recursos Humanos",
+    "empresa": "RH Inclusivo",
+    "modalidade": "Híbrido",
+    "descricao": "Suporte a processos de recrutamento e folha. A formalização do RH moderno começou com a era da Gestão de Pessoas nos anos 70.",
+    "ano_historico": "1970",
+    "link": "https://exemplo.com/vaga-rh2",
+    "tipo_deficiencia": "mental",
+    "tags": ["RH", "Recrutamento", "Comunicação"]
+  },
+  {
+    "nome": "Recepcionista Administrativo",
+    "empresa": "Consultoria Global",
+    "modalidade": "Presencial",
+    "descricao": "Atendimento e gestão de agendas. Profissão que se popularizou após a invenção do telefone por Graham Bell em 1876.",
+    "ano_historico": "1876",
+    "link": "https://exemplo.com/vaga-recepcao",
+    "tipo_deficiencia": "fisica",
+    "tags": ["Administrativo", "Atendimento", "Adaptação"]
+  },
+  {
+    "nome": "Operador de Caixa",
+    "empresa": "Supermercado Fácil",
+    "modalidade": "Presencial",
+    "descricao": "Atendimento ao cliente e registro de vendas. A primeira caixa registradora moderna foi patenteada por James Ritty em 1879.",
+    "ano_historico": "1879",
+    "link": "https://exemplo.com/vaga-caixa",
+    "tipo_deficiencia": "fisica",
+    "tags": ["Varejo", "Atendimento", "Acessível"]
+  },
+  {
+    "nome": "Analista Financeiro Pleno",
+    "empresa": "FinanCorp",
+    "modalidade": "Híbrido",
+    "descricao": "Análise de balanços e projeções. A contabilidade moderna (partidas dobradas) foi documentada por Luca Pacioli em 1494.",
+    "ano_historico": "1494",
+    "link": "https://exemplo.com/vaga-finan",
+    "tipo_deficiencia": "visual",
+    "tags": ["Finanças", "Contabilidade", "Números"]
+  },
+  {
+    "nome": "Técnico de Suporte N1",
+    "empresa": "Tech Connect",
+    "modalidade": "Remoto",
+    "descricao": "Suporte técnico via chat e telefone. O conceito de Service Desk e ITIL se consolidou nos anos 80.",
+    "ano_historico": "1980",
+    "link": "https://exemplo.com/vaga-suporte",
+    "tipo_deficiencia": "auditiva",
+    "tags": ["Tecnologia", "Chat", "ITIL"]
+  },
+  {
+    "nome": "Auxiliar de Limpeza",
+    "empresa": "Serviços Ágeis",
+    "modalidade": "Presencial",
+    "descricao": "Manutenção da organização e higiene do ambiente. A vassoura moderna de milho foi popularizada em 1797.",
+    "ano_historico": "1797",
+    "link": "https://exemplo.com/vaga-limpeza",
+    "tipo_deficiencia": "intelectual",
+    "tags": ["Serviços Gerais", "Rotina", "Presencial"]
+  },
+  {
+    "nome": "Especialista em SEO",
+    "empresa": "Web Rank",
+    "modalidade": "Remoto",
+    "descricao": "Otimização para mecanismos de busca. A busca orgânica e o conceito de PageRank (base do Google) surgiram em 1998.",
+    "ano_historico": "1998",
+    "link": "https://exemplo.com/vaga-seo",
+    "tipo_deficiencia": "fisica",
+    "tags": ["Marketing", "Google", "Análise"]
+  },
+  {
+    "nome": "Engenheiro Civil (Orçamentista)",
+    "empresa": "Construtora Forte",
+    "modalidade": "Híbrido",
+    "descricao": "Elaboração de orçamentos e custos. A profissão se estruturou com a fundação das primeiras escolas de engenharia nos séculos XVIII e XIX.",
+    "ano_historico": "1800",
+    "link": "https://exemplo.com/vaga-engenharia",
+    "tipo_deficiencia": "multipla",
+    "tags": ["Engenharia", "Cálculo", "Projeto"]
+  },
+  {
+    "nome": "Cozinheiro Auxiliar",
+    "empresa": "Restaurante Sabor",
+    "modalidade": "Presencial",
+    "descricao": "Preparo e organização da cozinha. A cozinha profissional moderna foi consolidada pelos métodos de Auguste Escoffier no final do século XIX.",
+    "ano_historico": "1890",
+    "link": "https://exemplo.com/vaga-cozinha",
+    "tipo_deficiencia": "auditiva",
+    "tags": ["Alimentação", "Cozinha", "Rotina"]
+  },
+  {
+    "nome": "Atendente de Farmácia",
+    "empresa": "Farmácia Bem-Estar",
+    "modalidade": "Presencial",
+    "descricao": "Organização de medicamentos e atendimento ao público. A primeira farmácia surgiu em Bagdá no século VIII.",
+    "ano_historico": "754",
+    "link": "https://exemplo.com/vaga-farmacia",
+    "tipo_deficiencia": "mental",
+    "tags": ["Saúde", "Atendimento", "Organização"]
+  },
+  {
+    "nome": "Analista de Mídias Sociais",
+    "empresa": "Digital Views",
+    "modalidade": "Remoto",
+    "descricao": "Criação e gestão de conteúdo para redes. O Facebook, que impulsionou a profissão, foi lançado em 2004.",
+    "ano_historico": "2004",
+    "link": "https://exemplo.com/vaga-social",
+    "tipo_deficiencia": "fisica",
+    "tags": ["Marketing", "Redes Sociais", "Criatividade"]
+  },
+  {
+    "nome": "Professor de Idiomas Online",
+    "empresa": "Polyglot Escola",
+    "modalidade": "Remoto",
+    "descricao": "Ensino de línguas estrangeiras via videoconferência. O ensino a distância (EAD) moderno começou a se popularizar com a internet em 1990.",
+    "ano_historico": "1990",
+    "link": "https://exemplo.com/vaga-idiomas",
+    "tipo_deficiencia": "visual",
+    "tags": ["Educação", "EAD", "Comunicação"]
+  },
+  {
+    "nome": "Analista de Qualidade de Software",
+    "empresa": "Bug Hunters",
+    "modalidade": "Híbrido",
+    "descricao": "Testes funcionais e não-funcionais. O primeiro 'bug' real (uma mariposa em um relé) foi registrado em 1947 por Grace Hopper.",
+    "ano_historico": "1947",
+    "link": "https://exemplo.com/vaga-qa2",
+    "tipo_deficiencia": "intelectual",
+    "tags": ["Tecnologia", "QA", "Lógica"]
+  },
+  {
+    "nome": "Gerente de Projetos (PMI)",
+    "empresa": "Solutions Corp",
+    "modalidade": "Remoto",
+    "descricao": "Gerenciamento de projetos ágeis. O PMI (Project Management Institute) foi fundado em 1969.",
+    "ano_historico": "1969",
+    "link": "https://exemplo.com/vaga-pm",
+    "tipo_deficiencia": "auditiva",
+    "tags": ["Gestão", "Agile", "Comunicação"]
+  },
+  {
+    "nome": "Comprador Júnior",
+    "empresa": "Apoio Suprimentos",
+    "modalidade": "Híbrido",
+    "descricao": "Negociação e gestão de fornecedores. A formalização da área de suprimentos ganhou força após a 2ª Guerra Mundial.",
+    "ano_historico": "1945",
+    "link": "https://exemplo.com/vaga-compras",
+    "tipo_deficiencia": "multipla",
+    "tags": ["Logística", "Negociação", "Administrativo"]
+  },
+  {
+    "nome": "Eletricista de Manutenção",
+    "empresa": "Energia Viva",
+    "modalidade": "Presencial",
+    "descricao": "Manutenção em equipamentos elétricos. A iluminação pública elétrica, que impulsionou a demanda por eletricistas, surgiu em 1879.",
+    "ano_historico": "1879",
+    "link": "https://exemplo.com/vaga-eletrica",
+    "tipo_deficiencia": "fisica",
+    "tags": ["Técnico", "Manutenção", "Físico"]
+  },
+  {
+    "nome": "Escritor Técnico (Documentação)",
+    "empresa": "Info Docs",
+    "modalidade": "Remoto",
+    "descricao": "Criação de manuais e documentação de software. Profissão que se popularizou com a necessidade de documentar sistemas complexos na década de 70.",
+    "ano_historico": "1970",
+    "link": "https://exemplo.com/vaga-escritor",
+    "tipo_deficiencia": "visual",
+    "tags": ["Documentação", "Escrita", "Tecnologia"]
+  },
+  {
+    "nome": "Repositor de Mercadorias",
+    "empresa": "Armazém Novo",
+    "modalidade": "Presencial",
+    "descricao": "Organização de prateleiras e inventário. O código de barras (UPC), que revolucionou o varejo, foi inventado em 1974.",
+    "ano_historico": "1974",
+    "link": "https://exemplo.com/vaga-repositor",
+    "tipo_deficiencia": "fisica",
+    "tags": ["Varejo", "Organização", "Presencial"]
+  },
+  {
+    "nome": "Analista de Marketing Digital",
+    "empresa": "Click Ads",
+    "modalidade": "Híbrido",
+    "descricao": "Criação de campanhas pagas e análise de performance. O primeiro clique em um banner online ocorreu em 1994, marcando o início da publicidade digital.",
+    "ano_historico": "1994",
+    "link": "https://exemplo.com/vaga-mkt",
+    "tipo_deficiencia": "auditiva",
+    "tags": ["Marketing", "Google Ads", "Performance"]
+  },
+  {
+    "nome": "Telemarketing Receptivo",
+    "empresa": "SAC Fácil",
+    "modalidade": "Presencial",
+    "descricao": "Recebimento de chamadas e resolução de problemas simples. Foco na comunicação clara e scripts de atendimento.",
+    "ano_historico": "1960",
+    "link": "https://exemplo.com/vaga-tele",
+    "tipo_deficiencia": "mental",
+    "tags": ["Atendimento", "Comunicação", "Rotina"]
+  }
+]
