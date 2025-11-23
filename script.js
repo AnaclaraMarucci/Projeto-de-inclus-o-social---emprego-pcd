@@ -29,17 +29,8 @@ async function iniciarBusca() {
     try {
         console.log("Tentando carregar dados de data.json...");
         
-        // 🚨 MODIFICAÇÃO PARA CORRIGIR O PATH NO GITHUB PAGES
-        // O GitHub Pages usa o nome do repositório como subdiretório (ex: /repositorio/data.json)
-        const REPO_SUBPATH = "/Projeto-de-inclus-o-social---emprego-pcd";
-        
-        // Verifica se o site está sendo carregado no domínio github.io
-        // Se sim, adiciona o nome do repositório ao caminho. Se não (servidor local), usa apenas 'data.json'.
-        const urlBusca = window.location.hostname.includes('github.io') 
-                       ? `${REPO_SUBPATH}/data.json` 
-                       : "data.json";
-        
-        const resposta = await fetch(urlBusca); 
+        // 🚨 TENTATIVA FINAL DE CORREÇÃO: Usando caminho relativo simples
+        const resposta = await fetch("./data.json"); 
         
         if (!resposta.ok) {
             // Este erro 404 será capturado aqui se o path ainda estiver incorreto
