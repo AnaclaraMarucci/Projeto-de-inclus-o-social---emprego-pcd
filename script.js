@@ -29,10 +29,21 @@ async function iniciarBusca() {
     try {
         console.log("Tentando carregar dados de data.json...");
         
-        const resposta = await fetch("data.json"); 
+        // 🚨 MODIFICAÇÃO PARA CORRIGIR O PATH NO GITHUB PAGES
+        // O GitHub Pages usa o nome do repositório como subdiretório (ex: /repositorio/data.json)
+        const REPO_SUBPATH = "/Projeto-de-inclus-o-social---emprego-pcd";
+        
+        // Verifica se o site está sendo carregado no domínio github.io
+        // Se sim, adiciona o nome do repositório ao caminho. Se não (servidor local), usa apenas 'data.json'.
+        const urlBusca = window.location.hostname.includes('github.io') 
+                       ? `${REPO_SUBPATH}/data.json` 
+                       : "data.json";
+        
+        const resposta = await fetch(urlBusca); 
         
         if (!resposta.ok) {
-            throw new Error(`Erro ao carregar data.json: Status ${resposta.status}`);
+            // Este erro 404 será capturado aqui se o path ainda estiver incorreto
+            throw new Error(`Erro ao carregar data.json: Status ${resposta.status} (${resposta.statusText})`);
         }
         
         dados = await resposta.json();
@@ -48,7 +59,7 @@ async function iniciarBusca() {
     } catch (error) {
         console.error("❌ ERRO GRAVE na inicialização. Verifique se 'data.json' existe e está formatado corretamente.", error);
         // Exibe uma mensagem de erro na interface, caso a falha persista
-        cardContainer.innerHTML = "<p class='mensagem-erro'>Não foi possível carregar as vagas. Verifique o arquivo **data.json** no seu projeto.</p>";
+        cardContainer.innerHTML = "<p class='mensagem-erro'>Não foi possível carregar as vagas. Verifique o arquivo **data.json** no seu projeto e o caminho de busca.</p>";
         document.getElementById("contadorVagas").textContent = "Erro ao carregar vagas.";
     }
 }
@@ -165,7 +176,7 @@ function renderizarCards(dados) {
             <div class="tag-container">
                 ${tagsHtml}
             </div>
-        `;   
+        `; 
         cardContainer.appendChild(article);
     }
 }
